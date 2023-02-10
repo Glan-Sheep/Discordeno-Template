@@ -1,11 +1,12 @@
 # Discordeno-template
-このテンプレートは [Amane](https://github.com/Glan-Sheep/AmaneBot)を参考にして作られました
+Japanese⇨[ja](https://github.com/Glan-Sheep/Discordeno-Template/japanese.md)
+This template is based on [Amane](https://github.com/Glan-Sheep/AmaneBot)
 😀<br>
-[Amane](https://github.com/Glan-Sheep/AmaneBot)の構造が変更される度このテンプレートも更新していきます🥳
+We will update this template whenever the structure of [Amane](https://github.com/Glan-Sheep/AmaneBot) changes 🥳
 <br>
-## 使い方
-まずこのテンプレートをコピーしましょう👍
+## Usage
+Copy this template first👍
 <br>
-[>>ここを押してください<<](https://github.com/Glan-Sheep/Discordeno-template/generate)<br>
-example.envファイルを.envファイルに変更し,<br>.envファイルにDiscordBotのTOKENを入れてください🔐<br>
-あとは```deno task start```を実行するだけです🦕<br>
+[>>press here<<](https://github.com/Glan-Sheep/Discordeno-template/generate)<br>
+Change the example.env file to a .env file and put DiscordBot's TOKEN in the <br>.env file 🔐<br>
+All you have to do is run ```deno task start```🦕<br>
