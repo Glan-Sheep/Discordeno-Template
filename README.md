@@ -1,5 +1,5 @@
 # Discordeno-template
-Japanese⇨[ja](https://github.com/Glan-Sheep/Discordeno-Template/japanese.md)
+Japanese⇨[ja](https://github.com/Glan-Sheep/Discordeno-Template/blob/main/japanese.md)
 <br>
 This template is based on [Amane](https://github.com/Glan-Sheep/AmaneBot)
 😀<br>
