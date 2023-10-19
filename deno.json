@@ -2,5 +2,12 @@
   "tasks": {
     "start": "deno run --allow-all index.ts"
   },
-  "importMap": "./import_map.json"
+  "lock": false,
+  "imports": {
+    "std/": "https://deno.land/std@0.204.0/",
+    "discordeno/": "https://deno.land/x/discordeno@18.0.1/",
+    "axiod": "https://deno.land/x/axiod@0.26.2/mod.ts",
+    "utils/": "./utils/",
+    "lib/": "./lib/"
+  }
 }

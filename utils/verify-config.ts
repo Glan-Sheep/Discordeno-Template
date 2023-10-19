@@ -1,4 +1,5 @@
 import log from "utils/logger.ts";
+import "std/dotenv/load.ts"
 
 export default function run() : boolean{
   if (+(Deno.version.deno.slice(1).split(".")[0]) >= 1) {
@@ -6,7 +7,7 @@ export default function run() : boolean{
     return false;
   }
 
-  if (!Deno.env.get("TOKEN")) {
+  if (Deno.env.get("TOKEN")) {
     log.info("Checking token");
   } else {
     log.error("TOKEN ERROR");

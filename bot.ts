@@ -9,13 +9,11 @@ import {
   enableHelpersPlugin,
 } from "discordeno/plugins/helpers/mod.ts";
 import { enablePermissionsPlugin } from "discordeno/plugins/permissions/mod.ts";
-import { config } from "dotenv";
 import { Command } from "./lib/mod.ts";
-
-const env = config();
+import "std/dotenv/load.ts"
 
 const bot = createBot({
-  token: env["TOKEN"],
+  token: Deno.env.get("TOKEN")!,
   intents:
     GatewayIntents.Guilds |
     GatewayIntents.GuildMessages |
